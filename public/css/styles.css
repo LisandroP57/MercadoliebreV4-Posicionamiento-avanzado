@@ -127,6 +127,7 @@ main article {
         /* Media Queries */
 
         /* Tablet */
+
 @media (min-width: 361px) {
     .burger-menu {
         display: none;
@@ -137,13 +138,19 @@ main article {
         width: 100%;
     }
 
-    header nav ul {
+    .list-one {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         width: 50%;
     }
-}
+
+    .list-two {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        width: 50%;
+    }
 
     .description {
         display: flex;
@@ -188,20 +195,13 @@ main article {
     .search input {
         min-width: 50%;
         max-width: 70%;
-    
     }
     .compra-cuotas {
         width: 33.3%;
     }
-    .home__section-products {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
-    }
 }
 
-        /* Desktop */
+/* Desktop */
 
 @media (min-width: 769px) {
     .article-carousel {
