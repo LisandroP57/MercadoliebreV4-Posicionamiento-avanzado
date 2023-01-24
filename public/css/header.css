@@ -1,0 +1,60 @@
+    /* Header */
+header {
+    background-color: var(--amarillo);
+    padding: 25px 0;
+    width: 100%;
+    padding: 10px;
+}
+
+header p {
+    text-align: center;
+}
+
+header nav {
+    display: none;
+}
+
+.logo {
+    padding: 20px 0px;
+    width: 50%;
+}
+
+.father-search {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search {
+    width: 50%;
+}
+
+.search input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid rgb(177, 177, 177);
+}
+
+/* .compra-cuotas {
+} */
+
+header nav ul li a {
+    font-size: var(--parrafos);
+}
+
+.login {
+    display: none;
+}
+
+.burger-menu {
+    display: flex;
+    background-color: var(--celeste);
+    border-radius: 5px;
+    color: white;
+    width: 28px;
+    padding: 7px;
+    margin: 25px auto 0;
+}

@@ -1,0 +1,30 @@
+/* Footer */
+footer {
+    padding: 50px 10px 10px;
+    background-color: white;
+}
+
+footer article {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer article i {
+    font-size: 32px;
+    color: var(--celeste);
+    margin-bottom: 10px;
+}
+
+footer article h4 {
+    color:var(--gris-oscuro);
+}
+
+footer article p {
+    color: var(--gris-oscuro);
+}
+
+
+footer span {
+    font-size: var(--parrafos);
+    color: var(--gris-oscuro);
+}

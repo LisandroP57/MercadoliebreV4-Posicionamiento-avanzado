@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('header.css');
+@import url('footer.css');
+
+        /* Variables: */
+    :root {
+        --amarillo: #EAC926;
+        --azul: #03264C;
+        --celeste: #1259c3;
+        --gris-oscuro: #666;
+        --gris-claro: #ebebeb;
+        --verde: #39b54a; 
+        --fuente-principal: 'Roboto', sans-serif;
+        --parrafos: 12px;
+        --titles: 24px;
+        --precios: 18px;
+        --descuento: 16px;
+        --descripcion: 16px;
+        }
+
+
+        /* Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fuente-principal);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: var(--parrafos);
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: "Roboto", sans-serif;
+}       /* Fin generales */
+
+
+
+
+        /* Main */
+
+.home__section-products, section {
+    width: 90%;
+    margin: auto;
+}
+
+main section h4 {
+    font-size: var(--titulos);
+      color: var(--gris-oscuro);
+      margin: 15px;
+}
+
+main article {
+    display: block;
+    background-color: white;
+    margin: 10px 20px;
+}
+
+.article-carousel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details {
+    padding: 15px 20px 7px;
+    border-top: 1px solid var(--gris-claro);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sending {
+    display: flex;
+    color: var(--verde);
+    border: 1px solid var(--verde);
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 5px 0px 0px 5px;
+    font-size: 16px;
+    position: absolute;
+    top: -0.9rem;
+    right: 1.2rem;
+}
+
+.cost {
+    font-size: var(--precios);
+    width: 30%;
+}
+
+.discount {
+    text-align: center;
+    font-size: var(--descuento);
+    color: var(--verde);
+    width: 70%;
+}
+
+.description {
+    display: none;
+}       /* Fin Main */
+
+
+
+        /* Media Queries */
+
+        /* Tablet */
+@media (min-width: 361px) {
+    .burger-menu {
+        display: none;
+    }
+
+    header nav {
+        display: flex;
+        width: 100%;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+}
+
+    .description {
+        display: flex;
+        font-size: var(--descripcion);
+        color: var(--gris-oscuro);
+    }
+
+    main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .article-carousel {
+        flex-wrap: wrap;
+    }
+
+    .article-carousel article {
+        max-width: 50%;
+    }
+
+    .login {
+        display: flex;
+    }
+
+    .father-search {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .search {
+        width: 33.3%;
+        margin-left: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        min-width: 20%;
+        max-width: 33.3%;
+        padding: 0.5rem 0.1rem;
+    }
+
+    .search input {
+        min-width: 50%;
+        max-width: 70%;
+    
+    }
+    .compra-cuotas {
+        width: 33.3%;
+    }
+    .home__section-products {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+        /* Desktop */
+
+@media (min-width: 769px) {
+    .article-carousel {
+        flex-wrap: nowrap;
+    }
+}

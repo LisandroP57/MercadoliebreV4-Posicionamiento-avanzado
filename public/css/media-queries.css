@@ -1,0 +1,82 @@
+/* Tablet */
+@media (min-width: 361px) {
+    .burger-menu {
+        display: none;
+    }
+
+    header nav {
+        display: flex;
+        width: 100%;
+    }
+
+    .list-one {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+
+    .list-two {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        width: 50%;
+    }
+
+    .description {
+        display: flex;
+        font-size: var(--descripcion);
+        color: var(--gris-oscuro);
+    }
+
+    main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .article-carousel {
+        flex-wrap: wrap;
+    }
+
+    .article-carousel article {
+        max-width: 50%;
+    }
+
+    .login {
+        display: flex;
+    }
+
+    .father-search {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .search {
+        width: 33.3%;
+        margin-left: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        min-width: 20%;
+        max-width: 33.3%;
+        padding: 0.5rem 0.1rem;
+    }
+
+    .search input {
+        min-width: 50%;
+        max-width: 70%;
+    
+    }
+    .compra-cuotas {
+        width: 33.3%;
+    }
+}
+
+        /* Desktop */
+
+@media (min-width: 769px) {
+    .article-carousel {
+        flex-wrap: nowrap;
+    }
+}

@@ -1,0 +1,61 @@
+/* Main */
+
+.home__section-products, section {
+    width: 90%;
+    margin: auto;
+}
+
+main section h4 {
+    font-size: var(--titulos);
+      color: var(--gris-oscuro);
+      margin: 15px;
+}
+
+main article {
+    background-color: white;
+    margin: 10px 20px;
+}
+
+.article-carousel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details {
+    padding: 15px 20px 7px;
+    border-top: 1px solid var(--gris-claro);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sending {
+    display: flex;
+    color: var(--verde);
+    border: 1px solid var(--verde);
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 5px 0px 0px 5px;
+    font-size: 16px;
+    position: absolute;
+    top: -0.9rem;
+    right: 1.2rem;
+}
+
+.cost {
+    font-size: var(--precios);
+    width: 30%;
+}
+
+.discount {
+    text-align: center;
+    font-size: var(--descuento);
+    color: var(--verde);
+    width: 70%;
+}
+
+.description {
+    display: none;
+}
